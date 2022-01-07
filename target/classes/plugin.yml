@@ -1,0 +1,9 @@
+name: AutoTotemTest
+version: '1.0'
+main: net.vanillaplus.autototemtest.Main
+api-version: 1.16
+commands:
+  totemtest:
+    description: Used to test for auto totem
+    usage: /<command>
+    permission: totemtest.use

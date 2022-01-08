@@ -11,6 +11,7 @@ import org.bukkit.entity.Item;
 import org.bukkit.entity.Player;
 import org.bukkit.inventory.EquipmentSlot;
 import org.bukkit.inventory.ItemStack;
+import org.bukkit.potion.PotionEffect;
 import org.bukkit.scheduler.BukkitRunnable;
 import org.bukkit.scheduler.BukkitTask;
 
@@ -62,7 +63,7 @@ public class AutoTotemTestCommand implements CommandExecutor {
 
 
                                                         b.setType(Material.NETHER_PORTAL);
-                                                        target.damage(target.getHealth());
+                                                        target.damage(2000);
                                                         sender.sendMessage("§aTotem popped!");
 
 
